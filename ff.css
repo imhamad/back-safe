@@ -1174,7 +1174,7 @@ body {
 }
 
 .safe-tokenomics-item {
-  background: #220f2280;
+  background: darkorange;
   border-radius: 32px;
   margin-bottom: 24px;
   padding: 16px 16px 20px;
@@ -1226,7 +1226,7 @@ body {
 }
 
 .safe-tokenomics-tread-green {
-  background: linear-gradient(#FE6F00  0%, #F88700 100%);
+  /* background: linear-gradient(#FE6F00  0%, #F88700 100%); */
   color: var(--color-green);
 }
 

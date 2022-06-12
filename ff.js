@@ -53,7 +53,7 @@ var $77666ebffebb89e4$export$b1e5508a851be14d = function() {
 var $44de46def522f58a$var$scrollTo = function(hash) {
     var target = document.querySelector(hash);
     if (target) target.scrollIntoView({
-        behavior: 'smooth'
+      behavior: 'smooth'
     });
 };
 var $44de46def522f58a$var$navigation = function() {

@@ -34,6 +34,7 @@
 html {
   -webkit-text-size-adjust: 100%;
   line-height: 1.15;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -1225,7 +1226,7 @@ body {
 }
 
 .safe-tokenomics-tread-green {
-  color: #3be36d;
+  background: linear-gradient(#FE6F00  0%, #F88700 100%);
   color: var(--color-green);
 }
 
@@ -2384,16 +2385,16 @@ body {
 .safe-platform {
   margin-top: 170px;
   margin-bottom: 145px;
-  background: darkgreen;
+  background: linear-gradient(#FE6F00  0%, #F88700 100%);
 }
 .safe-tokenomics {
-  background: linear-gradient(#FFCCCB 0%, #013220 100%);
+  background: linear-gradient(#C65201  0%, #FF8C00 100%);
   position: relative;
 }
 .safe-map-blur {
   width: 1660px;
   height: 1900px;
-  background: linear-gradient(#FFCCCB 0%, #013220 100%);
+  background: linear-gradient(#fe6e00b7  0%, #FF8C00 100%);
 }
 .safe-faq-item-title {
   font: 500 20px / 26px Poppins, sans-serif;
@@ -2403,8 +2404,33 @@ body {
   position: relative;
 }
 .safe-bottom,.safe-team{
-  background: linear-gradient(#013220  0%, #FFCCCB 100%);
+  background: linear-gradient(#C65201  0%, #FF8C00 100%);
 }
 .safe-pack {
-  background: linear-gradient(#013220  0%, #FFCCCB 100%);
+  background: linear-gradient(#C65201  0%, #FF8C00 100%);
+}
+.safe-defi-logo-other img {
+  opacity: .5;
+  max-width: 200px;
+  position: relative;
+  left: 72px;
+  top: 6em;
+}
+
+.safe-header-touch-menu-loom {
+  opacity: .9;
+  background: darkorange;
+  position: absolute;
+  inset: 0;
+  transform: scale(1.5);
+}
+
+@media screen and (max-width:768px){
+  .safe-defi-logo-other img {
+    opacity: .5;
+    max-width: 130px !important;
+    position: relative;
+    left: 59px;
+    top: 6.6em;
+  }
 }
